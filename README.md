@@ -1,6 +1,9 @@
 # HF-HNeRV
 ### [Paper] | [DAVIS Data](https://davischallenge.org/)
 
+## Method overview
+<img src='./assets/HF-HNeRV_pipeline.png' height='500'>
+
 ## Get stargted
 We run with Python 3.8 and CUDA 11.5, you can setup a conda environment:
 ```
@@ -17,7 +20,7 @@ Download [DAVIS dataset](https://davischallenge.org/) and put under data directo
 HF-HNeRV/data/DAVIS-data
 ```
 
-## High-Lecel structure
+## High-Level structure
 The code is organized as follows:
 * [run.py](./run.py) includes training and validation of HF-NeRV and HNeRV in DAVIS dataset
 * [train_nerv_all.py](./train_nerv_all.py) includes a training routine
@@ -28,6 +31,10 @@ The code is organized as follows:
 ```
 python run.py
 ```
+
+## Result
+### Visualization of reconstruced vidos
+<img src='./assets/cat3.png'>
 
 ## Citation
 
