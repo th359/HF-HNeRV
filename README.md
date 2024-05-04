@@ -4,7 +4,7 @@
 ## Method overview
 <img src='./assets/HF-HNeRV_pipeline.png' height='450'>
 
-## Get stargted
+## Get started
 We run with Python 3.8 and CUDA 11.5, you can setup a conda environment:
 ```
 conda create -n hfhnerv python=3.8
