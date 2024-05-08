@@ -31,6 +31,14 @@ The code is organized as follows:
 ```
 python run.py
 ```
+The defalt parameter settings are as follows
+```
+epoch = 300
+fix_epoch = 150
+model_size = 1.5
+filter_rate = 0.8
+scale = 0.1
+```
 
 ## Result
 ### Visualization of reconstruced vidos
