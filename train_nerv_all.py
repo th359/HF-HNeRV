@@ -73,7 +73,8 @@ def main():
     parser.add_argument('--outf', default='davis', help='folder to output images and model checkpoints')
     parser.add_argument('--propose', action='store_true', default=False)
     parser.add_argument('--use_hnerv', action='store_true', default=False , help='if True use HNeRV, else use proposed(reference image)')
-    parser.add_argument('--scale', default=0.1, help='use in difference module as normalization')
+    parser.add_argument('--filter_rate', default=0.8, type=float, help='high-pass filter cut off rate')
+    parser.add_argument('--scale', default=0.1, type=float, help='use in difference module as normalization')
     parser.add_argument('--use_highpass', action='store_true', default=False, help='use high frequence component as encoder input')
     #evaluation
     parser.add_argument('--eval_only', action='store_true', default=False, help='do evaluation only')

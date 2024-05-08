@@ -65,6 +65,7 @@ class VideoDataSet_HighPassFliter(Dataset):
         # import pdb; pdb.set_trace; from IPython import embed; embed()     
         first_frame = self.img_transform((self.img_load(0)/255.))
         self.final_size = first_frame.size(-2) * first_frame.size(-1)
+        self.filter_rate = args.filter_rate
 
     def img_load(self, idx):
         if isinstance(self.video, list):
@@ -128,7 +129,7 @@ class VideoDataSet_HighPassFliter(Dataset):
     def __getitem__(self, idx):
         img = self.img_load(idx)
         tensor_image = self.img_transform((img/255.))
-        filter_rate = 0.8
+        filter_rate = self.filter_rate
         fft_img = self.fft_rgb(img, filter_rate)
         #fft_img = self.sobel_filter_rgb(img)
         fft_img = self.img_transform((fft_img/255.))
