@@ -5,10 +5,39 @@
 <img src='./assets/pipeline.pdf'>
 
 ## Get started
+You can setup a conda environment:
+```
+git clone https://github.com/th359/HF-HNeRV.git
+cd HF-HNeRV/
+```
+```
+conda create -n hfhnerv python=3.8
+conda activate hfhnerv
+pip install -r requirements.txt
+```
+
 ## Data Download
+First, Create a data directory.
+Download [DAVIS dataset](https://davischallenge.org/) and put under data directory.
+```
+HF-HNeRV/data/DAVIS-data
+```
+
 ## High-Level structure
 ## Training and Evaluation
+```
+python run.py
+```
 The defalt parameter settings are as follows
+```
+epoch = 300
+input_type = 'fft'
+filter_rate = 0.8
+lr = 0.002
+lr_embed = '1.25_30'
+msp = '20_1_5'
+```
+
 ## Result
 ### Visualization of reconstruced vidos
 ## Citation
