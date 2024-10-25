@@ -1,0 +1,14 @@
+torch
+torchvision
+matplotlib
+lpips
+pandas
+openpyxl
+tensorboard
+timm
+tqdm
+numpy
+dahuffman
+decord
+pytorch_msssim
+imageio
