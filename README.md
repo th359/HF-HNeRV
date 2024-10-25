@@ -40,11 +40,11 @@ msp = '20_1_5'
 
 ## Result
 ### Comparison of reconstruced vidos
-<img src='./assets/result.png' width='700'>
+<img src='./assets/result.png' width='400'>
 <img src='./assets/PSNR_vs.png' width='700'>
 
 ### Visualization of reconstruced vidos
-<img src='./assets/vis.png' width='700'>
+<img src='./assets/vis.png' width='500'>
 <img src='./assets/hockey.png' width='700'>
 
 ### Video compression results
