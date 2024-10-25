@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-base_path = '/DAVIS-data/DAVIS/JPEGImages/1080p'
+base_path = 'data/DAVIS-data/DAVIS/JPEGImages/1080p'
 name_list = ['bear', 'blackswan', 'bmx-bumps', 'bmx-trees', 
              'boat', 'breakdance', 'breakdance-flare', 'bus', 
              'camel', 'car-roundabout', 'car-shadow', 'car-turn', 'cows', 
