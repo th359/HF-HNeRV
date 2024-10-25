@@ -2,7 +2,7 @@
 ### [Paper](https://arxiv.org/pdf/2409.18497) | [DAVIS Data](https://davischallenge.org/)
 
 ## Method overview
-<img src='./assets/pipeline.pdf'>
+<img src='./assets/pipeline.pdf' width='700'>
 
 ## Get started
 You can setup a conda environment:
@@ -39,7 +39,16 @@ msp = '20_1_5'
 ```
 
 ## Result
+### Comparison of reconstruced vidos
+<img src='./assets/PSNR_vs.png' width='700'>
+
 ### Visualization of reconstruced vidos
+<img src='./assets/vis.pdf' width='700'>
+<img src='./assets/hockey.pdf' width='700'>
+
+### Video compression results
+<img src='./assets/rd.png' width='700'>
+
 ## Citation
 ## Contact
 If you have any questions, please feel free to email the authors: hayatai17@fuji.waseda.jp
