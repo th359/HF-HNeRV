@@ -23,7 +23,6 @@ Download [DAVIS dataset](https://davischallenge.org/) and put under data directo
 NVR-RRCP/data/DAVIS-data
 ```
 
-## High-Level structure
 ## Training and Evaluation
 ```
 python run.py
