@@ -7,12 +7,12 @@
 ## Get started
 You can setup a conda environment:
 ```
-git clone https://github.com/th359/HF-HNeRV.git
-cd HF-HNeRV/
+git clone https://github.com/th359/NVR-RRCP.git
+cd NVR-RRCP/
 ```
 ```
-conda create -n hfhnerv python=3.8
-conda activate hfhnerv
+conda create -n $name$ python=3.8
+conda activate $name$
 pip install -r requirements.txt
 ```
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 First, Create a data directory.
 Download [DAVIS dataset](https://davischallenge.org/) and put under data directory.
 ```
-HF-HNeRV/data/DAVIS-data
+NVR-RRCP/data/DAVIS-data
 ```
 
 ## High-Level structure
