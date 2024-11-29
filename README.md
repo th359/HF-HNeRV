@@ -46,8 +46,10 @@ msp = '20_1_5'
 <img src='./assets/vis.png' width='500'>
 <img src='./assets/hockey.png' width='700'>
 
+<!--
 ### Video compression results
 <img src='./assets/rd.png' width='700'>
+-->
 
 ## Citation
 ## Contact
